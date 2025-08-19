@@ -1,0 +1,53 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.main-container {
+  background-color: grey;
+}
+
+.expense-list {
+    background-color: rgb(50, 50, 50);
+    padding: 30px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center; 
+    margin: auto;
+    width: 50%;
+}
+
+h2, h4, h6 {
+    color: white;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  /* CSS rules for devices <= 600px wide (like iPhone SE/8) */
+    h4 {
+        font-size: 10px;
+    }
+
+    h6 {
+        font-size: 8px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .expense-list {
+        padding: 10px;
+    }
+}

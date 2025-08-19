@@ -1,0 +1,40 @@
+.container {
+    background-color: grey;
+    display: grid;               
+    grid-template-columns: 1fr 5fr 1fr;  
+    gap: 10px; 
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 10px 0px
+}
+
+.tracker-left {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0px 5px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    background-color: rgb(50, 50, 50);
+}
+
+.tracker-center {
+    display: grid;
+    grid-template-columns: 1fr; 
+    align-items: center; 
+}
+
+.tracker-right {
+    display: grid;
+    grid-template-columns: 1fr; 
+    align-items: center; 
+}
+
+.price {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: purple;
+    padding: 10px 10px;
+    text-align: center;;
+}
