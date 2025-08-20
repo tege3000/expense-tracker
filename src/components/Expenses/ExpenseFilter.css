@@ -1,0 +1,10 @@
+.expense-filter__control {
+    display: grid;
+    grid-template-columns: 11fr 1fr;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+label {
+    color: white;
+}

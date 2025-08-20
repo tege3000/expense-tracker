@@ -1,0 +1,38 @@
+.new-expense {
+    background-color: rgb(235, 14, 235);
+    padding: 30px;
+    border-radius: 10px;
+    display: grid;
+    margin: 50px auto;
+    width: 50%;
+    grid-template-rows: 1fr 1fr;
+}
+
+.form-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.new-expense__control {
+    margin-bottom: 30px;
+}
+
+#add-expense {
+    background-color: purple;
+}
+
+.new-expense__actions {
+    display: flex;
+    justify-content: flex-end; 
+}
